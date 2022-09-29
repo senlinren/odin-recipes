@@ -1,3 +1,5 @@
+/* This is a css comment */
+
 body {
 background-color: black;
 color: wheat;
@@ -8,42 +10,29 @@ p{
     color: aqua;
 }
 
-.intro {
-    font-size: 50px;
-    color: plum;
-}
+/*Three different parts to a div box
 
-.steps {
-    font-size: 60px;
-    color: yellowgreen;
-}
+Margin: - Adds invisible space all around box that nothing can go in EX: margin-top, margin-bottom, margin-left, margin-right
+Border: Adds border to div box. Three variables - border-width, border-width-left/right/top/bottom, border-color, border-style
+Padding: Adds invisible space inside div box with background color
+All of these add onto the width and height!
 
-h1{
-    font-size: 51px;
-    color: blueviolet;
-}
+Always 
+box 
 
+*/
 
-
-.highlight {
-    color: orange;
-    font-size: 70px;
-}
-
-.highlight2 {
-    color: gainsboro;
-}
-
-.top-section {
+.box{
     background: pink;
-    font-size: 29px;
-    
-
-}
-
-.mid-section {
-    background: yellow;
-    font-size: 50px;
-    
+    width: 300px;
+    margin: 100px;
+    border-style: solid;
+    border-right-width: 5px;
+    border-left-width: 10px;
+    border-left-color: blue;
+    border-right-color: red;
+    border-right-style: solid;
+    border-left-style: dotted;
+    padding-right: 100px;
 }
 
