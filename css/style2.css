@@ -1,0 +1,56 @@
+body{
+    color: gray;
+    background-image: url(../pictures/moroccan-flower-dark.webp);
+}
+
+/*This is a CSS comment */
+
+/*This is a CSS comment */
+
+/*This is a CSS comment */
+
+h1{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+.p2, .p3 {
+    font-size: 21px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+    margin: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+}
+
+.highlight{
+    background-color: yellow;
+    color: black;
+}
+
+.boxp1{
+    background-image: url(../pictures/tree.jpg);
+}
+
+.boxp2{
+    background-color: aqua;
+}
+
+a:link{
+    color: green;
+    text-decoration: none;
+}
+
+a:visited{
+    color:red;
+}
+
+a:hover{
+    color:aqua;
+}
