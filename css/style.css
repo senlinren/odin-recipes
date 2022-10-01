@@ -2,12 +2,33 @@
 
 body {
 background-color: black;
+background-image: url(../pictures/moroccan-flower-dark.webp);
 color: wheat;
 font-size: 21px;
+font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
 }
 
 p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: capitalize;
     color: aqua;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    line-height: 1.25;
+}
+
+h1{
+    color: blue;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+
+    margin-bottom: 0px;
+}
+
+.highlight{
+    color: yellow;
 }
 
 /*Three different parts to a div box
@@ -23,16 +44,38 @@ box
 */
 
 .box{
-    background: pink;
-    width: 300px;
+    background-image: url(../pictures/dog.jpg);
+    
+    
     margin: 100px;
-    border-style: solid;
-    border-right-width: 5px;
-    border-left-width: 10px;
-    border-left-color: blue;
-    border-right-color: red;
-    border-right-style: solid;
-    border-left-style: dotted;
-    padding-right: 100px;
+    margin-top: 0px;
+    padding: 300px;
+    background-size: contain
+}
+
+
+/* a: needs to be in this order, too to bottom because cascade effect! */
+
+a:link{
+    color: yellow;
+    text-decoration: none;
+
+}
+
+a:visited{
+color: purple;
+}
+
+a:hover{
+    color: pink;
+    
+}
+
+a:active{
+    color: blue;
+}
+
+a:focus{
+    color: yellow;
 }
 
